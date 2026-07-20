@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer Card Border (subtle background for the split card) -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M 36,23 H 72 C 79.1,23 85,28.9 85,36 V 72 C 85,79.1 79.1,85 72,85 H 36 C 28.9,85 23,79.1 23,72 V 36 C 23,28.9 28.9,23 36,23 Z"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1" />
+
+    <!-- Left Half: Night Side -->
+    <path
+        android:fillColor="#0F1321"
+        android:pathData="M 36,24 H 54 V 84 H 36 C 29.4,84 24,78.6 24,72 V 36 C 24,29.4 29.4,24 36,24 Z" />
+
+    <!-- Night Stars & Moon -->
+    <path
+        android:fillColor="#E1F5FE"
+        android:pathData="M36,36m-4,0a4,4 0 1,1 8,0a4,4 0 1,1 -8,0" />
+        
+    <!-- Night Mountain Peaks -->
+    <path
+        android:fillColor="#1B2A4A"
+        android:pathData="M 24,84 L 38,58 L 54,84 Z" />
+
+    <!-- Right Half: Day Side -->
+    <path
+        android:fillColor="#4FC3F7"
+        android:pathData="M 54,24 H 72 C 78.6,24 84,29.4 84,36 V 72 C 84,78.6 78.6,84 72,84 H 54 Z" />
+
+    <!-- Day Sun -->
+    <path
+        android:fillColor="#FFB74D"
+        android:pathData="M72,36m-4,0a4,4 0 1,1 8,0a4,4 0 1,1 -8,0" />
+
+    <!-- Day Mountain Peaks -->
+    <path
+        android:fillColor="#2E7D32"
+        android:pathData="M 54,84 L 70,55 L 84,84 Z" />
+
+    <!-- Central Switch Circle -->
+    <path
+        android:fillColor="#12131A"
+        android:pathData="M54,54m-16,0a16,16 0 1,1 32,0a16,16 0 1,1 -32,0"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5" />
+
+    <!-- Double-Headed Arrow inside Center Circle -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M 46,50 L 42,54 L 46,58 M 62,50 L 66,54 L 62,58 M 42,54 H 66" />
+</vector>

@@ -1,0 +1,6 @@
+{
+  "name": "DiKonex",
+  "description": "Digitify the Kodak negative. Convert old film negatives to high-resolution color positive images.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
