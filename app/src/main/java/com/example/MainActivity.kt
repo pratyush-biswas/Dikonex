@@ -78,7 +78,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    NegaConvertApp(
+                    DiKonexApp(
                         isDarkTheme = isDarkTheme,
                         onThemeToggle = { isDarkTheme = !isDarkTheme }
                     )
@@ -124,7 +124,7 @@ val FilmPresets = mapOf(
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun NegaConvertApp(
+fun DiKonexApp(
     isDarkTheme: Boolean,
     onThemeToggle: () -> Unit
 ) {

@@ -22,6 +22,6 @@ dependencyResolutionManagement {
   }
 }
 
-rootProject.name = "NegaConvert"
+rootProject.name = "DiKonex"
 
 include(":app")
